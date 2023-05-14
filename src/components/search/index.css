@@ -1,0 +1,16 @@
+.search {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-select {
+  font-size: 1rem;
+  margin: 16px 0;
+  border-radius: 8px;
+  padding: 8px;
+  border: 0;
+}
+
+.search-continue {
+  margin-left: auto;
+}
