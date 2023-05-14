@@ -7,7 +7,7 @@ This is a simple state machine implementation in react with typescript.
 ## Technologies
 
 - [React](https://reactjs.org/)
-- [Typescript]()<https://www.typescriptlang.org/>
+- [Typescript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [XState](https://xstate.js.org/docs/)
 - [@xstate/react](https://xstate.js.org/docs/packages/xstate-react/)
