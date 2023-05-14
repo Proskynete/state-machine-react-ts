@@ -20,6 +20,11 @@ body {
   background-color: #293684;
 }
 
+.button:disabled {
+  background-color: #c4c4c4;
+  cursor: not-allowed;
+}
+
 .button-secondary {
   border: none;
   background-color: rgba(255, 255, 255, 0.8);
@@ -34,6 +39,12 @@ body {
 .button-secondary:hover {
   color: #293684;
   background-color: white;
+}
+
+.button-secondary:disabled {
+  background-color: #c4c4c4;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: not-allowed;
 }
 
 .title {

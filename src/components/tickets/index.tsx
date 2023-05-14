@@ -14,10 +14,12 @@ const Tickets = ({ state, send }: TicketsProps) => {
       <div className="tickets-ticket">
         <div className="tickets-country">Chile</div>
         <div className="tickets-passengers">
+          <div>
+            {state.context.passengers.map((person: string) => (
+              <p key={person}>{person}</p>
+            ))}
+          </div>
           <span>✈</span>
-          {state.context.passengers.map((person: string) => (
-            <p key={person}>{person}</p>
-          ))}
         </div>
       </div>
 

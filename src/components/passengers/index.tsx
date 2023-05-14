@@ -40,7 +40,11 @@ const Passengers = ({ state, send }: PassengersProps) => {
       />
 
       <div className="passengers-buttons">
-        <button className="passengers-adds button-secondary" type="submit">
+        <button
+          className="passengers-adds button-secondary"
+          type="submit"
+          disabled={value === ""}
+        >
           Agregar pasajero
         </button>
 
@@ -48,6 +52,7 @@ const Passengers = ({ state, send }: PassengersProps) => {
           className="passenger-pay button"
           type="button"
           onClick={goToTickets}
+          disabled={passengers.length === 0}
         >
           Ver mi ticket
         </button>

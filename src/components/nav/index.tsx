@@ -9,7 +9,7 @@ const Nav = ({ state, send }: NavProps) => {
   return (
     <nav className="nav">
       <h1 className="nav-logo">Booking a Fly 🛫</h1>
-      {!state.matches("initial") && (
+      {!state.matches("initial") && !state.matches("tickets") && (
         <button onClick={goToWelcome} className="nav-cancel button-secondary">
           Cancelar
         </button>
