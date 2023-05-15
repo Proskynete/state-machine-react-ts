@@ -1,7 +1,7 @@
 .base-layout {
   align-items: center;
   background-color: #fed6e3;
-  background-image: url("../../public/images/background-travel-2.jpg");
+  background-image: url("/images/background-travel-2.jpg");
   background-size: cover;
   box-sizing: border-box;
   display: flex;
