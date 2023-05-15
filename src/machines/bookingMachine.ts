@@ -47,7 +47,7 @@ const fillContries = {
 
 const bookingMachine = createMachine(
   {
-    id: "buy plane tickets",
+    id: "Buy plane tickets",
     initial: "initial",
     context: defaultContext,
     predictableActionArguments: true,

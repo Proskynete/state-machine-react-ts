@@ -3,8 +3,8 @@
 export interface Typegen0 {
   "@@xstate/typegen": true;
   internalEvents: {
-    "xstate.after(5000)#buy plane tickets.tickets": {
-      type: "xstate.after(5000)#buy plane tickets.tickets";
+    "xstate.after(5000)#Buy plane tickets.tickets": {
+      type: "xstate.after(5000)#Buy plane tickets.tickets";
     };
     "xstate.init": { type: "xstate.init" };
   };
@@ -16,7 +16,7 @@ export interface Typegen0 {
     services: never;
   };
   eventsCausingActions: {
-    clearContext: "CANCEL" | "xstate.after(5000)#buy plane tickets.tickets";
+    clearContext: "CANCEL" | "xstate.after(5000)#Buy plane tickets.tickets";
   };
   eventsCausingDelays: {};
   eventsCausingGuards: {
