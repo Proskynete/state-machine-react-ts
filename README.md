@@ -1,5 +1,7 @@
 # Platzi State-Machine course
 
+You can show the app running [here](https://proskynete.github.io/state-machine-react-ts/)
+
 ## Description
 
 This is a simple state machine implementation in react with typescript.
